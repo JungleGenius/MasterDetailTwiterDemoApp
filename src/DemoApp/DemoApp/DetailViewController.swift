@@ -5,13 +5,13 @@
 //  Created by Mac Mini Admin on 06/24/2018.
 //  Copyright © 2018 Media Spurt, Inc. All rights reserved.
 //
+//  Modifications by Daniel Thompson Copyright © 2018
 
 import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
+    @IBOutlet weak var webView: UIWebView!
 
     var detailItem: AnyObject? {
         didSet {
@@ -23,9 +23,15 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.valueForKey("timeStamp")!.description
+            
+            //print(detail.valueForKey("titleUrl")!.description)
+            
+            if let webView = self.webView {
+                webView.loadRequest(NSURLRequest(URL: NSURL(string: detail.valueForKey("titleUrl")!.description)!))
+                webView.request
+                webView.reload()
             }
+
         }
     }
 

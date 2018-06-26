@@ -5,6 +5,7 @@
 //  Created by Mac Mini Admin on 06/24/2018.
 //  Copyright © 2018 Media Spurt, Inc. All rights reserved.
 //
+//  Modifications by Daniel Thompson Copyright © 2018
 
 import XCTest
 

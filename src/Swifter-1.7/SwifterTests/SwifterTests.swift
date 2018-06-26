@@ -1,16 +1,14 @@
 //
-//  DemoAppTests.swift
-//  DemoAppTests
+//  SwifterTests.swift
+//  SwifterTests
 //
-//  Created by Mac Mini Admin on 06/24/2018.
-//  Copyright © 2018 Media Spurt, Inc. All rights reserved.
+//  Created by Lewis Smith on 22/02/2016.
+//  Copyright © 2016 Matt Donnelly. All rights reserved.
 //
-//  Modifications by Daniel Thompson Copyright © 2018
 
 import XCTest
-@testable import DemoApp
 
-class DemoAppTests: XCTestCase {
+class SwifterTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
