@@ -30,9 +30,11 @@ Their requirments were as follows:
 > The app must be able to be pulled down from this repo and built without any additional configuration. For example, we should not be responsible for getting its own API keys or access.
 > We're a senior group of folks who see software as a craft. We'll be looking for well-structured code that follows best practices, is tested, doesn't have errors, is commented appropriately (e.g. comment your header files), considers edge cases, and demonstrates your creativity and love of software.
 
-The only issue:  I'm being asked to invest my time implementing all of the above without being offered any compensation for my time.  I have already invested a day learning Swift's syntax and building a demo that works well enough to prove I can build an iOS App in a whole new language.  If you want unit test coverage, handle edge cases, and an excellent looking UI you need to make a contractual commitment at some point.
+The only issue:  I was being asked to implement all of the above requirments without any compensation.
 
-Follow up:  After investing the time to create this project on spec the guys who asked me to do it flaked out on me.  After this no more free projects to prove I can write code.  I just built a demo in a language I have never used before in just over one day.  That should be enough proof I can code.
+If you want unit test coverage, handle edge cases, and an excellent looking UI you need to make a bona fide offer with some compensation for the time spent building your demo app.
+
+Follow up:  After investing the time to create this project on spec the guys who asked me to do it flaked out on me.  I had already invested a day learning Swift's syntax and building a demo that works well enough to prove I can build an iOS App in a whole new language.  After this no more free projects to prove I can write code.  I just built a demo in a language I have never used before in just over one day.  That should be enough proof I can do the job.
 
 =======================
 
